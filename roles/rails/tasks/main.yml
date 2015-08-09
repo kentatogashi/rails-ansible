@@ -1,3 +1,3 @@
 - name: install rails
   sudo_user: togashik
-  shell: cd; bash -lc "gem install rails"
+  shell: cd; bash -lc "gem install rails; exit $?"
