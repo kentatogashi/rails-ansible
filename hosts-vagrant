@@ -1,0 +1,2 @@
+[webservers]
+togashik ansible_ssh_user=vagrant ansible_ssh_host=10.33.33.33
