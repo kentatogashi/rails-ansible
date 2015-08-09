@@ -3,7 +3,7 @@
   sudo: yes
 
 - name: rm -r /var/lib/apt/lists
-  file: name=/var/lib/apt/lists state=absent
+  file: name=/var/lib/apt state=absent
   sudo: yes
 
 - name: change source repo 
